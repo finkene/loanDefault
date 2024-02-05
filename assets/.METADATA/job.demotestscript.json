@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "name": "demo_test_script",
+    "asset_type": "job",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2024-01-26T16:16:42Z",
+    "created": 1706285802111,
+    "asset_id": "job.demotestscript",
+    "asset_attributes": [
+      "job"
+    ]
+  },
+  "entity": {
+    "job": {
+      "asset_ref_type": "script",
+      "configuration": {
+        "env_id": "rt231py",
+        "file_ref": "assets/jupyterlab/hello-world.py",
+        "entrypoint": "",
+        "env_type": "script",
+        "env_variables": []
+      },
+      "last_run_initiator": "deprecated field",
+      "last_run_time": "deprecated field",
+      "last_run_status": "deprecated field",
+      "last_run_status_timestamp": 0,
+      "future_scheduled_runs": [],
+      "enable_notifications": true,
+      "retention_policy": {
+        "amount": 5
+      },
+      "project_name": "Git Loan Default",
+      "schedule_id": "",
+      "schedule_creator_id": ""
+    }
+  },
+  "attachments": []
+}
